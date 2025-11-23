@@ -2,11 +2,11 @@
 
 // Predefined questions and answers stored in an array of objects
 const quiz = [
-  { question: "What is the capital of India?", answer: "delhi" },
-  { question: "Which planet is known as the Red Planet?", answer: "mars" },
-  { question: "What is 5 multiplied by 6?", answer: "30" },
-  { question: "Who wrote 'Harry Potter'?", answer: "j.k. rowling" },
-  { question: "What is the largest mammal on Earth?", answer: "blue whale" }
+  { question: "What is the chemical symbol gold", answer: "Au" },
+  { question: "How many days in leap year?", answer: "366" },
+  { question: "How many heart does an Octopus have?", answer: "3" },
+  { question: "Who wrote play Romeo and Juliet?", answer: "William Shakesspeare" },
+  { question: "What famous play feature the line:To Be or Not To Be", answer: "Hamlet" }
 ];
 
 // Score counter
@@ -42,4 +42,5 @@ function startQuiz() {
 }
 
 // Start the quiz
+
 startQuiz();
